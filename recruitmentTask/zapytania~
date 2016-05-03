@@ -1,1 +1,0 @@
-SELECT name, questionContent FROM `questions` INNER JOIN `profiles` ON `profiles`.`id_profile` = `questions`.`id_profile` 
