@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>  
+        <meta charset="utf-8"> 
+        <title>Single Question</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/favicon.png">
+         <!-- Bootstrap -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: #ffe1ad; overflow-x: hidden;">
+
+<!--    HEADER  -->
+        <!-- Sizes and background-color main header frame -->
+        <div class="container" style="background-color: #ffffff; font-family: Wonderfull;">
+            
+            <!-- ROW 1 -->
+            <div class="row">
+                <!-- Empty up header part height:-->
+                <div class="col-md-12 col-sm-12 col-xs-12" style="background-color: #ffffff; height: 30px; padding: 0;"></div>
+            </div>
+
+            <!-- ROW 2 -->
+            <div class="row" style="height: 35px; padding: 0;">
+                <a href="allquestions.html"><div class="col-md-2 col-sm-2 col-xs-3" style="background-color: #ffffff;">
+                    <div class="circle3"><</div>
+                    <!--<a href="allquestions.html"><img src="img/backButton.png" width="30px" height="30px" /></a>-->
+                </div></a>
+                <div class="col-md-3 col-sm-4 col-xs-5" style="background-color: #ffffff; font-size: 25px; padding: 0; height: 35px;">
+                    <span style="float: left;">QUESTION</span>
+                    <span id="hide_for_phone"><div class="circle" style="float: left; margin-left: 20px;">+</div></span>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-1" style="background-color: #ffffff; height: 35px;"></div>
+                <div class="col-md-3 col-sm-4 col-xs-2" style="background-color: #ffffff; height: 35px; font-size: 11px;">
+                    <div id="display_for_phone"><div class="circle" style="float: right;">+</div></div>
+                    <p style="position: relative; height: 50%; top: 50%; float: right; word-spacing: 3px; font-style: italic;">
+                        <span id="last_time_dis"> Last time
+                                <span style="word-spacing: 5px;">discussed
+                                    <span style="font-style: normal; font-weight: bold; font-size: 13px;">1</span>
+                                    day
+                                </span>ago
+                        </span>
+                    </p>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12" style="background-color: #ffffff; height: 30px;"></div>
+            </div>
+
+            <!-- ROW 3 -->
+            <div class="row">
+            <span id="hide_for_phone">
+                <div class="col-md-12 col-sm-12 col-xs-12" style="background-color: #ffffff; height: 20px;"></div>
+                </span>
+            </div>
+
+            <!-- ROW 4 -->
+            <div class="row">
+            <span id="hide_for_phone">
+                <div class="col-md-2 col-sm-2 col-xs-3" style="background-color: #ffffff; height: 25px;"></div>
+                <div class="col-md-6 col-sm-4 col-xs-3" style="background-color: #ffffff; height: 25px; padding: 0;"></div>
+                <div class="col-md-2 col-sm-4 col-xs-3" style="background-color: #ffffff; height: 25px; padding-right: 0; margin: 0;"></div>
+                <div class="col-md-2 col-sm-2 col-xs-3" style="background-color: #ffffff; height: 25px;"></div>
+                </span>
+            </div>
+
+            <!-- ROW 5 -->
+            <div class="row">
+            <span id="hide_for_phone">               
+                <div class="col-md-12 col-sm-12" style="background-color: #ffffff; height: 20px; margin: 0; border-style: inset; border-left: 0; border-right: 0; border-top: 0; border-color: #fbfbfb;">
+                </div>
+                <span id="hide_for_phone">
+            </div>
+
+        <!-- CONTENT -->
+            <div class="row" style="background-color: #fbfbfb;">
+                <div class="col-md-8 col-sm-12 col-xs-12 center-block">
+
+<!-- START ASK FRAME -->
+                        <div class="row">
+                            <div class="col-md-1 col-sm-2 col-xs-3" style="background-color: #dff3fd; height: 60px;">
+                                <div class="center-block" style="position: absolute; top: 50%; transform: translateY(-50%);">
+                                    <a data-toggle="modal" data-target=".bs-example-modal-lg">
+                                        <img src="img/ex2.jpg" width="40px;" height="40px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; cursor: pointer;"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-7 col-xs-6" style="background-color: #dff3fd; height: 60px; line-height: 18px; font-size: 12px; word-spacing: 3px; padding:15px; display:table-cell; vertical-align:middle;">
+                                <span id="my_blue_color">Ewa</span>
+                                <font size="1px"><span id="my_gray_color">IS ASKING:</span></font><br>
+                                <span id="hide_for_phone"><span id="my_blue_color">Will insulin make my patient gain weight?</span></span>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-3" style="background-color: #dff3fd; color: #0266b3; height: 60px;  border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9; text-align: center; font-size: 12px; padding:25px; display:table-cell; vertical-align:middle;">
+                                <span id="hide_for_phone"><div id="unfollow_right_up">unfollow</div></span>
+                            </div>
+
+                            <span id="display_for_phone">
+                            <div class="col-xs-12" style="background-color: #dff3fd; color: #0266b3; height: auto; border-top: 1px; border-bottom: 10px; border-left: 0; border-style: solid; border-color: #ffffff; font-size: 12px; padding:5px; display:table-cell; vertical-align:middle;">
+                                <span style="margin-left: 20px;"> Will insulin make my patient gain weight?</span>
+                            </div>
+                            </span>
+                        </div>
+
+                        <div class="row">
+                            <span id="hide_for_phone"><div class="col-md-1 col-sm-2 col-xs-12" style="background-color: #dff3fd; height: 30px;"></div>
+                            <div class="col-md-11 col-sm-10 col-xs-12" style="background-color: #ffffff; height: 30px;  border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;">
+                                    <div id="triangle-up" style="float: right; min-height:100%; position:relative; margin-right: 30px;"></div>
+                            </div></span>
+                        </div>
+
+                        <div class="row">
+                            <span id="hide_for_phone">
+                            <div class="col-md-1 col-sm-2 col-xs-1" style="background-color: #dff3fd; height: 225px; color: #7d8b93; text-align: center; font-size: 10px; border-top: 0; border-left: 0; border-right: 0; border-style: inset; border-color: #e9e9e9;"></div>
+                            </span>
+                            
+                            <div class="col-md-8 col-sm-7 col-xs-12" style="background-color: #ffffff; height: 225px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30; border-top: 0; border-left: 0; border-right: 0; border-style: inset; border-color: #e9e9e9; font-size: 10px; color: #7d8b93; z-index: 10; line-height: 18px; word-spacing: 3px;">
+                                <div style="height: auto; margin-bottom: 80px;">All my patients with dibates should see an opthalmologist yearly for a dialated eye examination begining at diagnosis inpeople with type 2 diabetes, and after 5 years in people with type 1 diabetes after puberty. Patiens with know eye disease, symtoms of blurred vision in one eye, or blind spots may need to see their ophthalmologist more frequently.
+                            <span id="display_for_phone">
+                            <p style="margin: 10px;"></p>
+                            <div id="triangle-up" style="float: right; min-height:100%; position:relative; margin-right: 20px;"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-12" style="background-color: #ffffff; height: auto; font-size: 13px;">
+                                <p style="margin: 0;"></p>
+                                <span style="float: left; color: #0266b3;">unfollow</span>
+                                <span style="float: right; color: #000000;"> 19
+                                    <span style="font-style: italic; font-size: 11px; float: right; margin-left: 5px; margin-right: 50px; color: #000000;">upvotes</span>
+                                </span>
+                            </div><div id="triangle-down" style="float: right; margin-right: 20px;"></div>
+                            </span>
+                                </div>
+                            </div>
+                            <span id="hide_for_phone">
+                            <div class="col-md-3 col-sm-3 col-xs-24" style="background-color: #ffffff; height: 225px; border-top: 0; border-left: 0; border-style: inset; border-color: #e9e9e9; font-size: 13px;">
+                                <span style="word-spacing: 5px;"> 19
+                                    <span style="font-style: italic; font-size: 11px;">upvotes</span>
+                                </span>
+                                <p style="margin: 0;"></p>
+                                <div id="triangle-down" style="float: right; margin-right: 30px;"></div>
+                            </div>
+                            </span>
+
+                            
+                        </div>
+                        
+                        
+                        <div class="row" style="height: 70px">
+                            <a href="" style="">
+                                <div class="col-md-4 col-sm-3 col-xs-6 center-block">
+                                    <span style="background: #ffffff; position: absolute; text-align: center; border-style: solid; border-color: #e9e9e9; padding: 5px; z-index: 20; top: -18px; width: 180px; color: #000000;">GIVE new answer</span>
+                                </div>
+                            </a>
+                        </div>
+              
+<!-- END ASK FRAME -->
+
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12" style="background-color: #fbfbfb; height: 40px; text-align: center; font-size: 12px; word-spacing: 3px;">
+                                1 peer already answered Eva
+                            </div>
+                        </div>
+<!-- START ANSWER FRAME -->
+                        <div class="row">
+                            <div id="hide_for_phone"><div class="col-md-2 col-sm-2 col-xs-2" style="background-color: #ffffff; height: 50px; border-bottom: 0; border-style: solid; border-color: #e9e9e9;"></div></div>
+                            <div class="col-md-10 col-sm-10 col-xs-12" style="background-color: #ffffff; height: 50px; border-bottom: 0; border-left: 0; border-style: solid; border-color: #e9e9e9; word-spacing: 3px; line-height: 50px;">
+                                    <span style="float: left;">
+                                    <div id="display_for_phone"><a data-toggle="modal" data-target=".bs-example-modal-lg"><img src="img/ex5.jpg" width="40px;" height="40px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; cursor: pointer; background-size:75% 50%;"></a></div>
+                                    <span id="my_blue_color" style="font-size: 12px; ">Jack</span>
+                                <font size="1px"><span id="my_gray_color">COMMENTED IT</span></font></span><div class="circle2" style="float: left; margin-left: 10px;"></div><span style="color: #000000; font-style: italic; margin-left: 10px; font-size: 12px;"> two days
+                            </div>
+                        </div>
+
+                        <div class="row" style="height: 165px;">
+                            <div id="hide_for_phone"><div class="col-md-2 col-sm-2 col-xs-2" style="background-color: #ffffff; height: 165px; color: #7d8b93; border-style: solid; border-color: #e9e9e9; border-top: 0; background-size:75% 50%;">
+                                <a data-toggle="modal" data-target=".bs-example-modal-lg"><img src="img/ex5.jpg" width="60px;" height="60px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; cursor: pointer; background-size:75% 50%;"></a>
+                            </div></div>
+                            <div class="col-md-7 col-sm-7 col-xs-12" style="background-color: #ffffff; height: 165px; border-style: solid; border-top: 0; border-left: 0; border-right: 0; border-style: inset; border-color: #e9e9e9; font-size: 10px; color: #7d8b93; z-index: 10; line-height: 18px; word-spacing: 3px;">
+                                <p style="margin-left: 10px;"></p>
+                                When your blood sugar is low, your body gives out signs that you need food. Different people have different symptoms. You will learn to know your symptoms.
+                                <span id="display_for_phone">
+                            <p style="margin: 10px;"></p>
+                            <div id="triangle-up" style="float: right; height:10px; position:relative; margin-right: 20px;"></div>
+                            <div class="col-md-3 col-sm-3 col-xs-12" style="background-color: #ffffff; height: auto; font-size: 13px;">
+                                <p style="margin: 0;"></p>
+                                <span style="float: right; color: #000000;"> 3
+                                    <span style="font-style: italic; font-size: 11px; float: right; margin-left: 5px; margin-right: 50px; color: #000000;">downvotes</span>
+                                </span>
+                            </div><div id="triangle-down" style="float: right; margin-right: 20px;"></div>
+                            </span>
+                            </div>
+                            <div id="hide_for_phone">
+                            <div class="col-md-3 col-sm-3 col-xs-12" style="background-color: #ffffff; height: 165px; border-top: 0; border-left: 0; border-style: inset; border-color: #e9e9e9; font-size: 13px;">
+                                <div id="triangle-up" style="float: right; position:relative; margin-right: 30px;"></div>
+                                <p style="margin: 10px;"></p>
+                                <span style="margin-left: -10px; word-spacing: 5px;"> 3
+                                    <span style="font-style: italic; font-size: 11px; margin-right: 10px;">downvotes</span>
+                                </span>
+                                <div id="triangle-down" style="float: right; margin-right: 30px;"></div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="height: 50px">
+                            <a href="" style="">
+                                <div class="col-md-4 col-sm-3 col-xs-6 center-block">
+                                    <span style="background: #ffffff; position: absolute; text-align: center; border-style: solid; border-color: #e9e9e9; padding: 5px; z-index: 20; top: -18px; width: 180px; color: #000000;">COMMENT</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+<!-- END ANSWER FRAME -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

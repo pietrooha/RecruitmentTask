@@ -1,0 +1,514 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head>  
+	   <meta charset="utf-8"> 
+		<title>All Questions</title>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="img/favicon.png">
+		 <!-- Bootstrap -->
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	<body style="background-color: #ffe1ad; overflow-x: hidden;">
+<!--	HEADER  -->
+		<!-- Sizes and background-color main header frame -->
+		<div class="container" style="background-color: #ffffff; height: 125px; font-family: Wonderfull;">
+			
+			<!-- ROW 1 -->
+			<div class="row">
+				<!-- Empty up header part height:-->
+    			<div class="col-md-12 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 30px; padding: 0;">
+    			</div>
+    		</div>
+
+    		<!-- ROW 2 -->
+    		<div class="row" style="height: 30px; padding: 0;">
+    			<a href="singlequestion.html"><div class="col-md-2 col-sm-2 col-xs-3" style="background-color: #ffffff;">
+                    <div class="circle3"><</div>
+                    <!--<a href="allquestions.html"><img src="img/backButton.png" width="30px" height="30px" /></a>-->
+                </div></a>		
+    			<div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #ffffff; font-size: 25px; padding: 0;">
+                    <span style="float: left;">QUESTION</span>
+                    <div class="circle" style="float: left; margin-left: 20px;">+</div>
+    			</div>
+    			<div class="col-md-3 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 25px;">
+    				
+    				<form role="form" style="font-size: 10px; float: right; position: relative; height: 60%; top: 40%;">
+    					<label class="radio-inline">
+      						<input type="radio" name="optradio">My shelf
+    					</label>
+    					<label class="radio-inline">
+      						<input type="radio" name="optradio">All questions
+    					</label>
+  					</form>
+    			</div>
+    			<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 25px; font-size: 10px; word-spacing: 3px;">
+    				<p style="position: relative; height: 50%; top: 50%; float: right;">
+    					<font style="font-style: italic;">Sort by:</font>
+    					<ins><font color="#aea9ac">recent</font></ins>
+    					<font style="font-style: italic;">or</font>
+    					<font color="#0266b3">hot</font>
+    				</p>
+    			</div>
+				<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 25px;"></div>
+			</div>
+
+			<!-- ROW 3 -->
+    		<div class="row">
+    			<div class="col-md-12 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 20px;"></div>
+    		</div>
+
+    		<!-- ROW 4 -->
+    		<div class="row">
+    			<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 25px;"></div>
+
+    			<div class="col-md-6 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 25px; padding: 0;">
+    				<form role="form">
+      					<input type="text" class="form-control" id="search_questions" placeholder="Search questions"; style="height: 25px;">
+    				</form>
+    			</div>
+    			<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 25px; padding-right: 0; margin: 0;">
+    				<form role="form">
+      					<input type="text" class="form-control" id="search" placeholder="SEARCH" style="text-align: center; height: 25px;">
+    				</form>
+    			</div>
+				<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 25px;"></div>
+    		</div>
+
+    		<!-- ROW 5 -->
+    		<div class="row">    			
+				<div class="col-md-12 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 20px; margin: 0; border-style: inset; border-left: 0; border-right: 0; border-top: 0; border-color: #fbfbfb;">
+    			</div>
+			</div>
+		</div>
+
+<!-- CONTENT -->
+		<div class="container" style="font-family: Wonderfull">
+			<div class="row" style="background-color: #fbfbfb;">
+				<div class="col-md-8 col-sm-6 col-xs-12 center-block">
+
+<!-- START ONE ASK FRAME -->
+					<div class="container" style="padding: 0; float: left;">
+						<div class="row">
+							<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 60px;">
+								<div class="center-block" style="background-color: #dff3fd; position: absolute; top: 50%; transform: translateY(-50%);">
+									<a data-toggle="modal" data-target=".bs-example-modal-lg"><img src="img/ex2.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; cursor: pointer;"></a>
+								</div>
+							</div>
+							<div class="col-md-5 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 60px; line-height: 18px; font-size: 12px; word-spacing: 3px; padding:15px; display:table-cell; vertical-align:middle;">
+								<span id="my_blue_color" style="cursor: pointer;"><a data-toggle="modal" data-target=".bs-example-modal-lg">Ewa</a></span>
+								<font size="1px"><span id="my_gray_color">IS ASKING:</span></font><br>
+								<span id="my_blue_color">Will insulin make my patient gain weight?</span>
+							</div>
+							<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 60px;  border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"></div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 30px;"></div>
+							<div class="col-md-7 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 30px;  border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"></div>
+						</div>
+
+						<div class="row">
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 140px; color: #7d8b93; text-align: center; font-size: 10px;">
+    							<div class="bottom_aligner">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">ASKED
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<span style="position: absolute; top: 30%; left: 45%; transform: translateY(-50%);">3</span>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93; text-align: center;">
+    								more activities
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex7.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93;">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">COMMENTED
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;" >
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex3.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93;">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">COMMENTED
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex4.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93;">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">COMMENTED
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex5.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #000000;">
+    								<hr style="background-color: #000000; height: 2px; margin: 10px; margin-left: 0; width: 100%;">ANSWERED
+    								<div id="black_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 140px; border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;">
+                                <span style="font-size: 10px; float: right;"><br />1 related discussion<br /><br /><br /><br />6 peers involved<br /><br /><br /><br />3 conversations</div></span>            
+                            </div>
+    					
+
+    					<div class="row">
+    						 <div class="col-md-8 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 30px; border-top: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"></div>
+    					</div>
+					</div>
+<!-- END ONE ASK FRAME -->
+
+<!-- START ONE ASK FRAME -->
+					<div class="container" style="padding: 0; float: left;">
+						<div class="row">
+							<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 60px;">
+								<div class="center-block" style="position: absolute; top: 50%; transform: translateY(-50%);">
+									<img src="img/ex1.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+							</div>
+							<div class="col-md-5 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 60px; line-height: 18px; font-size: 12px; word-spacing: 3px; padding:15px; display:table-cell; vertical-align:middle;">
+								<span id="my_blue_color">Gregory</span>
+								<font size="1px"><span id="my_gray_color">IS ASKING:</span></font><br>
+								<span id="my_blue_color">Vegan diet in diabetes treatment?</span>
+							</div>
+							<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 60px;  border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"></div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 30px;"></div>
+							<div class="col-md-7 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 30px;  border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"></div>
+						</div>
+
+						<div class="row">
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 140px; color: #7d8b93; text-align: center; font-size: 10px;">
+    							<div class="bottom_aligner">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">ASKED
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<span style="position: absolute; top: 30%; left: 45%; transform: translateY(-50%);">6</span>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93; text-align: center;">
+    								more activities
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex4.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93;">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">COMMENTED
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;" >
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex5.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93;">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">COMMENTED
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex6.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93;">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">COMMENTED
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex3.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #000000;">
+    								<hr style="background-color: #000000; height: 2px; margin: 10px; margin-left: 0; width: 100%;">ANSWERED
+    								<div id="black_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 140px; border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;">
+              <span style="font-size: 10px; float: right;"><br />2 related discussion<br /><br /><br /><br />9 peers involved<br /><br /><br /><br />5 conversations</div></span>
+                            </div>
+    					
+
+    					<div class="row">
+    						 <div class="col-md-8 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 30px; border-top: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"></div>
+    					</div>
+					</div>
+<!-- END ONE ASK FRAME -->
+
+<!-- START ONE ASK FRAME -->
+					<div class="container" style="padding: 0; float: left;">
+						<div class="row">
+							<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 60px;">
+								<div class="center-block" style="position: absolute; top: 50%; transform: translateY(-50%);">
+									<img src="img/ex5.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+							</div>
+							<div class="col-md-5 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 60px; line-height: 18px; font-size: 12px; word-spacing: 3px; padding:15px; display:table-cell; vertical-align:middle;">
+								<span id="my_blue_color">Andrew</span>
+								<font size="1px"><span id="my_gray_color">IS ASKING:</span></font><br>
+								<span id="my_blue_color">Vegan diet to stop diabetes progress?</span>
+							</div>
+							<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 60px;  border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"></div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 30px;"></div>
+							<div class="col-md-7 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 30px;  border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"></div>
+						</div>
+
+						<div class="row">
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #dff3fd; height: 140px; color: #7d8b93; text-align: center; font-size: 10px;">
+    							<div class="bottom_aligner">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">ASKED
+    							</div>
+    						</div>
+    						
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex6.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93;">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">COMMENTED
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;" >
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex2.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #7d8b93;">
+    								<hr style="background-color: #7d8b93; height: 2px; margin: 10px; margin-left: 0; width: 100%;">COMMENTED
+    								<div id="gray_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+    						
+    						<div class="col-md-1 col-sm-6 col-xs-12" style="background-color: #eeeeee; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;">
+    							<div class="center-block" style="position: absolute; top: 30%; left: 25%; transform: translateY(-50%);">
+									<img src="img/ex5.jpg" width="50px;" height="50px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;">
+								</div>
+    							<div id="bottom_aligner_circle" style="font-size: 10px; color: #000000;">
+    								<hr style="background-color: #000000; height: 2px; margin: 10px; margin-left: 0; width: 100%;">ANSWERED
+    								<div id="black_circle" style="margin: 0 auto; "></div>
+    							</div>
+    						</div>
+
+                            <div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 140px; border-left: 4px; border-color: #ffffff; border-style: solid; z-index:30;"></div>
+
+
+    						<div class="col-md-2 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 140px; border-top: 0; border-bottom: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"><span style="font-size: 10px; float: right;"><br />5 related discussion<br /><br /><br /><br />4 peers involved<br /><br /><br /><br />0 conversations</div></span>
+    					</div>
+
+    					<div class="row">
+    						 <div class="col-md-8 col-sm-6 col-xs-12" style="background-color: #ffffff; height: 30px; border-top: 0; border-left: 0; border-style: inset; border-color: #e9e9e9;"></div>
+    					</div>
+					</div>
+<!-- END ONE ASK FRAME -->
+
+<!-- LOAD MORE -->
+					<div class="container" style="padding: 0;">
+						<div class="row">
+    						<div class="col-md-8 col-xs-12" style="background-color: #ffffff; height: 60px; font-family: Wonderfull; font-size: 10px; border-top: 0; border-left: 0; border-bottom: 0; border-style: inset; border-color: #e9e9e9;" >
+    							<font color="red"> <br /><br />load more question</font>
+    						</div>
+    					</div>
+					</div>
+				</div>
+			</div>
+		  </div>
+        </div>
+
+<!-- Modal -->
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="row">
+                <div class="col-xs-12"></div>
+                <div class="col-xs-12">
+
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <span class="modal-title">
+                      <center><img src="img/ex2.jpg" width="90px;" height="90px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;"></center>
+                      <p style="text-align: center; font-family: Wonderfull; color: #0266b3; padding: 10px; font-size: 20px; margin-right: 20px;">Eva</p>
+                    </span>
+                    <span style="font-family: Wonderfull;">
+                      <div id="display_for_phone" style="font-size: 13px;">
+                        <center>
+                          <div class="col-xs-6 center-block" style="color: #7d8b98;">MEMBER FOR</div>
+                          <div class="col-xs-6 center-block">5 months</div><br />
+                          <div class="col-xs-6 center-block" style="color: #7d8b98;">LAST SEEN</div>
+                          <div class="col-xs-8 center-block">Saturday afternoon</div><br />
+                          <div class="col-xs-8 center-block" style="color: #7d8b98;">ACTIVITY LEVEL</div>
+                          <div class="col-xs-6 center-block" style="margin-top: 5px;">
+                            <div id="badge-ribbon-red" style="margin-right: 15px; color: #ffffff; font-size: 16px; display: inline-block;">☆</div>
+                            <div id="badge-ribbon-red" style="margin-right: 15px; color: #ffffff; font-size: 16px; display: inline-block;">☆</div>
+                            <div id="badge-ribbon-gray" style="color: #ffffff; font-size: 16px; display: inline-block;">☆</div>
+                          </div>
+                        </center><br />
+                      </div>
+
+                      <div id="hide_for_phone" style="font-size: 13px; word-spacing: 5px;">
+                        <div id="hide_for_tablet">
+                          <div class="col-xs-12 center-block">
+                            <div class="col-xs-4" style="color: #7d8b98;">MEMBER FOR<span style="font-size: 13px; color: #000000;"> 5 months</span></div>
+                            <div class="col-xs-4" style="color: #7d8b98;">LAST SEEN<span style="font-size: 13px; color: #000000;"> Saturday afternoon</span></div>
+                            <div class="col-xs-4" style="color: #7d8b98;">ACTIVITY LEVEL
+                              <div id="badge-ribbon-red" style="margin-right: 15px; color: #ffffff; font-size: 18px; display: inline-block;">☆</div>
+                              <div id="badge-ribbon-red" style="margin-right: 15px; color: #ffffff; font-size: 18px; display: inline-block;">☆</div>
+                              <div id="badge-ribbon-gray" style="color: #ffffff; font-size: 18px; display: inline-block;">☆</div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div id="display_for_tablet">
+                          <center>
+                            <div class="col-xs-6 center-block" style="color: #7d8b98;">MEMBER FOR</div>
+                            <div class="col-xs-6 center-block">5 months</div><br />
+                            <div class="col-xs-6 center-block" style="color: #7d8b98;">LAST SEEN</div>
+                            <div class="col-xs-8 center-block">Saturday afternoon</div><br />
+                            <div class="col-xs-8 center-block" style="color: #7d8b98;">ACTIVITY LEVEL</div>
+                            <div class="col-xs-6 center-block" style="margin-top: 5px;">
+                              <div id="badge-ribbon-red" style="margin-right: 15px; color: #ffffff; font-size: 16px; display: inline-block;">☆</div>
+                              <div id="badge-ribbon-red" style="margin-right: 15px; color: #ffffff; font-size: 16px; display: inline-block;">☆</div>
+                              <div id="badge-ribbon-gray" style="color: #ffffff; font-size: 16px; display: inline-block;">☆</div>
+                            </div>
+                          </center><br />
+                        </div>
+                      </div>
+                    </span>
+                  </div>
+
+                  <div class="modal-body" style="font-family: Wonderfull;">
+                    <div class="row">
+                      <div class="col-xs-2" style="color: #7d8b98; font-size: 17px;"><div class="circle3" style="color: #ffffff; background-color: #a7a9ac; border-color: #a7a9ac;"><</div></div>
+                      <div class="col-xs-8" style="font-size: 27px; text-align: center; margin-bottom: 12px;">How it all started</div>
+                      <div class="col-xs-2" style="color: #7d8b98; font-size: 17px;"><div class="circle" style="height: 35px; width: 35px; line-height: 35px; float: right;">></div></div>
+                      <div class="col-xs-8 center-block" style="color: #7d8b98; font-size: 13px; text-align: center; margin-bottom: 15px;">THAT'S WHERE WE HAVE BEEN THESE 5 MONTHS AGO</div>
+                    </div>
+
+                    <div class="row">
+                      <div id="display_for_phone">
+                        <center>
+                          <div class="col-xs-12 center-block">
+                            <div class="square" style="display: inline-block; margin-right: -1px;"><div id="text_no_rotate" style="font-size: 27px;">46<br /><span style="font-size: 13px;">peers</span></div></div>
+                            <div class="square" style="-ms-transform: rotate(-105deg); -webkit-transform: rotate(-105deg); transform: rotate(-105deg); display: inline-block; margin-left: -1px;">
+                              <div id="text_no_rotate" style="-ms-transform: rotate(105deg); -webkit-transform: rotate(105deg); transform: rotate(105deg); font-size: 27px;">29<br />
+                                <span style="font-size: 13px;">discussions</span>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-xs-12 center-block">
+                            <div class="square" style="display: inline-block; margin-right: -1px; margin-top: -22px;">
+                              <div id="text_no_rotate" style="font-size: 27px;">19<br />
+                                <span style="font-size: 13px;">findings</span>
+                              </div>
+                            </div>
+                            <div class="square" style="-ms-transform: rotate(-75deg); -webkit-transform: rotate(-75deg); transform: rotate(-75deg); display: inline-block; margin-left: -1px; margin-top: -22px;">
+                              <div id="text_no_rotate" style="-ms-transform: rotate(75deg); -webkit-transform: rotate(75deg); transform: rotate(75deg); font-size: 27px;">10<br />
+                                <span style="font-size: 13px;">questions</span>
+                              </div>
+                            </div>
+                          </div>
+                        </center>
+                      </div>
+
+                      <div id="hide_for_phone">
+                        <center>
+                          <div class="col-xs-12 center-block">
+                            <div class="square" style="display: inline-block; margin-right: -1px;">
+                              <div id="text_no_rotate" style="font-size: 27px;">46<br />
+                                <span style="font-size: 13px;">peers</span>
+                              </div>
+                            </div>
+                            <div class="square" style="-ms-transform: rotate(-105deg); -webkit-transform: rotate(-105deg); transform: rotate(-105deg); display: inline-block; margin-right: -1px;">
+                              <div id="text_no_rotate" style="-ms-transform: rotate(105deg); -webkit-transform: rotate(105deg); transform: rotate(105deg); font-size: 27px;">29<br />
+                                <span style="font-size: 13px;">discussions</span>
+                              </div>
+                            </div>
+                            <div class="square" style="display: inline-block; margin-right: -1px;">
+                              <div id="text_no_rotate" style="font-size: 27px;">19<br />
+                                <span style="font-size: 13px;">findings</span>
+                              </div>
+                            </div>
+                            <div class="square" style="-ms-transform: rotate(-75deg); -webkit-transform: rotate(-75deg); transform: rotate(-75deg); display: inline-block; margin-right: -1px;">
+                              <div id="text_no_rotate" style="-ms-transform: rotate(75deg); -webkit-transform: rotate(75deg); transform: rotate(75deg); font-size: 27px;">10<br />
+                                <span style="font-size: 13px;">questions</span>
+                              </div>
+                            </div>
+                          </div>
+                        </center>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-xs-12 center-block" style="color: #7d8b98; font-size: 13px; text-align: center; margin-top: 25px; margin-bottom: 25px;">WHO JOINED THE PLATFORM THAT SAME PERIOD</div>
+                      
+                        <div id="display_big_three_down_profile">
+                          <div class="col-xs-12 center-block">
+                            <center>
+                              <div class="module" style="display: inline-block;">
+                                <div class="stripe-2"><img src="img/ex1.jpg" width="70px;" height="70px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;"></div>
+                                Gregory
+                              </div>
+
+                              <div class="module" style="display: inline-block;">
+                                <div class="stripe-2"><img src="img/ex4.jpg" width="70px;" height="70px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;"></div>
+                                Jack
+                              </div>
+
+                              <div class="module" style="display: inline-block;">
+                                <div class="stripe-2"><img src="img/ex5.jpg" width="70px;" height="70px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;"></div>
+                                Andrew
+                              </div>
+                            </center>
+                          </div>
+                        </div>
+
+                        <div id="display_small_three_down_profile">
+                          <div class="col-xs-12 center-block">
+                          <center>
+                            <div class="module" style="display: inline-block;">
+                              <div class="stripe-2"><img src="img/ex1.jpg" width="40px;" height="40px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;"></div>
+                              Gregory
+                            </div>
+
+                            <div class="module" style="display: inline-block;">
+                              <div class="stripe-2"><img src="img/ex4.jpg" width="40px;" height="40px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;"></div>
+                              Jack
+                            </div>
+
+                            <div class="module" style="display: inline-block;">
+                              <div class="stripe-2"><img src="img/ex5.jpg" width="40px;" height="40px;" style="border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px;"></div>
+                              Andrew
+                            </div>
+                          </center>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+	</body> 
+</html>
